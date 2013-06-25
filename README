@@ -1,0 +1,10 @@
+W celu kompilacji i budowy programów należy posiadać zainstalowany program CMake 2.6 (lub nowszy).
+
+Budowa i kompilacja programów powinna przebiegać jak następuje:
+mkdir ../build 
+cd ../build
+cmake ../src
+make
+
+W katalogu ../build/bin zostaną utworzone programy wykonywalne (min.: testujące)
+
